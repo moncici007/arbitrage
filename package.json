@@ -1,0 +1,40 @@
+{
+  "name": "@moncici/arbitrage",
+  "version": "1.0.3",
+  "description": "feishu notify arbitrage",
+  "main": "buy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncici007/arbitrage"
+  },
+  "website": "https://github.com/moncici007/arbitrage.git",
+  "keywords": [
+    "feishu",
+    "notify",
+    "nodejs",
+    "arbitrage"
+  ],
+  "author": "moncici007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moncici007/arbitrage/issues"
+  },
+  "homepage": "https://github.com/moncici007/arbitrage#readme",
+  "dependencies": {
+    "@moncici/binance": "^1.0.3",
+    "@moncici/coingecko": "^1.0.3",
+    "@moncici/date-time-processor": "^1.0.3",
+    "@moncici/dexscanner": "^1.0.4",
+    "@moncici/log": "^1.0.2",
+    "@moncici/queue": "^1.0.0",
+    "@moncici/sleep": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "feishu-notifier": "^1.0.3",
+    "https": "^1.0.0",
+    "moment": "^2.30.1"
+  },
+  "type": "module"
+}
