@@ -1,6 +1,6 @@
 import { AVAX, Arbitrum, LINK, MATIC, Optimism, Solana } from './const.js';
 import { notify } from "feishu-notifier";
-import { FIFOQueue } from './util/fifo.js';
+import { FIFOQueue } from '@moncici/queue';
 import { retryDuration } from './const.js';
 import { sleep } from '@moncici/sleep';
 import { getPriceByCoin } from '@moncici/coingecko';
