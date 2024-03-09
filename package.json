@@ -36,5 +36,9 @@
     "https": "^1.0.0",
     "moment": "^2.30.1"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "type": "module"
 }
